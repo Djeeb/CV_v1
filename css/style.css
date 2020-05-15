@@ -1,0 +1,85 @@
+/* GENERAL */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+section {
+  padding: 45px 0 80px 0;
+}
+section .heading {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+.red-divider {
+  width: 100px;
+  height: 2px;
+  background: #cc7d19;
+  margin: 0 auto;
+}
+/* ABOUT */
+#about {
+  padding-top: 100px;
+  background: #17acb2;
+}
+.profile-picture {
+  text-align: center;
+  margin: 0 auto;
+}
+#about .heading h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+#about .heading h3 {
+  color: #000;
+}
+.button1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid white;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 18px 50px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in 0s;
+}
+.button1:hover {
+  background: white;
+  color: #17acb2;
+  text-decoration: none;
+}
+
+/* SKILLS */
+
+#skills {
+  background: #fff;
+}
+#skills .heading h2 {
+  color: #17acb2;
+  text-transform: uppercase;
+}
+#skills .progress {
+  height: 40px;
+  margin: 30px 20px;
+  background: #a4d8d8;
+}
+#skills .progress-bar {
+  background: #17acb2;
+}
+#skills .progress h5 {
+  margin-top: 6px;
+  text-shadow: 1px 1px 1px #000;
+}
