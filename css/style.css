@@ -166,3 +166,27 @@ ol {
   float: left;
   margin-left: 40px;
 }
+.timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline-panel-container-inverted .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline-heading h3 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+.timeline-heading h4 {
+  color: #17acb2;
+}
