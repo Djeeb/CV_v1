@@ -237,3 +237,28 @@ ol {
   display: block;
   margin-top: 6px;
 }
+
+/* PORTFOLIO */
+
+#portfolio {
+  background: #cc7d19;
+}
+#portfolio .heading h2 {
+  color: #fff;
+}
+#portfolio .thumbnail img {
+  width: 100%;
+  height: 100%;
+  border: 4px solid #fff;
+  border-radius: 4px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+#portfolio .thumbnail img:hover {
+  width: 100%;
+  height: 100%;
+  border: 4px solid #fff;
+  border-radius: 4px;
+  filter: none;
+  -webkit-filter: none;
+}
