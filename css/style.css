@@ -190,3 +190,50 @@ ol {
 .timeline-heading h4 {
   color: #17acb2;
 }
+.customers-logo {
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 5px;
+  height: 45px;
+}
+
+/* FORMATIONS */
+#formations {
+  background: #fff;
+}
+.formations-block {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  background: #ddd;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+.formations-block h5 {
+  color: #888;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.formations-block .google-logo {
+  height: 20px;
+  margin-bottom: 5px;
+}
+#formations .fas {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.formations-block h3 {
+  margin-bottom: 20px;
+}
+.formations-block .red-divider {
+  margin-bottom: 20px;
+}
+.formations-block .certificate {
+  display: block;
+}
+.formations-block .certificate-360 {
+  display: block;
+  margin-top: 6px;
+}
