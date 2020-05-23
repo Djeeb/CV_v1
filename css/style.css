@@ -262,3 +262,33 @@ ol {
   filter: none;
   -webkit-filter: none;
 }
+
+/* RECOMMANDATIONS */
+
+#projets-perso {
+  background: #fff;
+}
+#projets-perso .heading h2 {
+  color: #17acb2;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-image: none;
+  color: #17acb2;
+}
+.carousel-indicators {
+  bottom: 0px;
+}
+.carousel-indicators li {
+  border-color: #17acb2;
+}
+.carousel-indicators li.active {
+  background-color: #17acb2;
+}
+#myCarousel .carousel-item {
+  padding: 40px 30px;
+}
+#myCarousel .carousel-item h3 {
+  color: #17acb2;
+  font-style: italic;
+}
