@@ -299,6 +299,18 @@ ol {
   background-image: none;
   color: #17acb2;
 }
+.carousel-control-prev:focus,
+.carousel-control-next:focus,
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: #17acb2;
+}
+.carousel-control-prev {
+  left: -40px;
+}
+.carousel-control-next {
+  right: -40px;
+}
 .carousel-indicators {
   bottom: 0px;
 }
