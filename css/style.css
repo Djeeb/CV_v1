@@ -42,6 +42,29 @@ ul,
 ol {
   list-style: none;
 }
+
+/* MENU */
+.navbar {
+  background-color: #f79521;
+  font-size: 12px;
+  border-bottom: 1px solid #fff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-pills .nav-link {
+  color: #fff !important;
+  text-align: center;
+}
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+  color: #f79521 !important;
+  background-color: #fff !important;
+}
+.navbar-toggler {
+  color: #fff !important;
+  border-style: none;
+}
 /* ABOUT */
 #about {
   padding-top: 100px;
@@ -291,4 +314,24 @@ ol {
 #myCarousel .carousel-item h3 {
   color: #17acb2;
   font-style: italic;
+}
+
+/* FOOTER */
+
+footer {
+  background: #333;
+  padding: 20px 0 40px;
+}
+footer .fas {
+  font-size: 25px;
+  margin: 20px;
+  color: #a4d8d8;
+  height: 30px;
+}
+footer .fas:hover {
+  font-size: 27px;
+}
+footer h5 {
+  color: #fff;
+  font-weight: normal;
 }
